@@ -1,0 +1,308 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+/* header */
+#header{
+    padding: 0px;
+    background-color: #CF13D6;
+}
+.logo-section h2{
+    font-size: 30epx;
+    padding: 20px;
+    font-weight: bold;
+}
+.nav-bar ul li{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    padding: 20px 20px 10px 0px;
+    font-weight: bold;
+}
+.nav-bar {
+    text-align: right;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color: white;
+}
+.nav-bar ul li a:hover{
+    color: red;
+}
+.nav-bar ul li :active{
+    color: red;
+}
+/* body */
+#hero{
+    background-color: #771A8F;
+}
+.description {
+    padding: 150px 50px 180px 100px;
+}
+
+.description h1 {
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+}
+.description p{
+    font-size: 20px;
+    color: white;
+}
+.description button{
+    margin: 10px 40px 10px 0px;
+    padding:10px 30px;
+    border-radius: 50px;
+    background-color: #EB3FDA;
+    font-weight: bold;
+    color: white;
+    border-color: #EB3FDA;
+    border-style: none;
+}
+
+/* Contant Area */
+
+.textarea {
+    text-align: center;
+    padding: 50px 0px 40px 0px;
+}
+
+/* Card */
+
+.card{
+    align-items: center;
+    padding: 40px 60px;
+    border: 5px solid black;
+    box-shadow: -5px 5px lightgray;
+}
+.card:hover{
+    box-shadow: 0px 8px 12px 0 rgba(0, 0, 0, 2);
+}
+
+.card img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    
+}
+.card-contant{
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+}
+.card-contant h4{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card-contant h5 a{
+    text-decoration: none;
+    color: #405BC5;
+}
+
+#cards{
+    justify-content: center;
+    padding: 20px 0px;
+}
+
+/* project */
+
+#projectoverview{
+    background-color: #233950;
+    padding: 10px;
+}
+
+.projectoverview{
+    text-align: center;
+}
+
+.projectoverview p{
+    font-size: 50px;
+    padding: 0px;
+    margin: 0px;
+    font-weight: bold;
+    color:white;
+}
+
+.projectoverview h5{
+    color:#FCEFF3;
+}
+#clients{
+    text-align: center;
+    padding: 20px 20px 100px 20px;
+    
+}
+.client{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: -5px 5px lightgray;
+}
+
+/* price */
+
+#pricing{
+    padding: 0px 0px 100px 0px;
+}
+
+.price{
+    padding:20px 0px;
+    text-align: center;
+}
+
+.price button{
+    margin: 10px 20px 10px 20px;
+    padding:10px 30px;
+    border-radius: 50px;
+    background-color: #EB3FDA;
+    font-weight: bold;
+    color: white;
+    border-color: #EB3FDA;
+    border-style: none;
+}
+
+/* footer */
+
+#footer{
+    background-color: #CF13D6;
+    padding: 40px 60px;
+    
+}
+#footer-line{
+    border-bottom: 6px solid white;
+}
+
+.footer-info h2{
+    color: white;
+    font-weight: bold;
+}
+.footer-info h6{
+    color: white;
+    font-weight: bold;
+}
+.footer-socialmedia{
+    text-align: right;
+    padding: 30px 40px 30px 0px;
+    
+}
+.footer-socialmedia h2{
+    color: white;
+    font-weight: bold;
+}
+.footer-socialmedia img{
+    width: 40px;
+    height: 40px;
+}
+
+/* About page */
+
+#about-hero{
+    padding: 150px 150px 150px 150px;
+    text-align: center;
+    background-color: #771A8F;
+}
+.about-body h1{
+    font-size: 80px;
+    color: white;
+    font-weight: bold;
+}
+.about-description{
+    padding: 100px 50px;
+}
+.about-description button{
+    margin: 10px 40px 10px 0px;
+    padding:10px 30px;
+    border-radius: 50px;
+    background-color: #EB3FDA;
+    font-weight: bold;
+    color: white;
+    border-color: #EB3FDA;
+    border-style: none;
+}
+.about-description h2{
+    font-size: 60px;
+    font-weight: bold;
+    color: #413737;
+}
+.about-description h3{
+    font-size: 25px;
+    color: #413737;
+    padding: 20px 0px;
+}
+.about-image{
+    padding:100px 50px;
+    text-align: center;
+}
+.about-image img{
+    width: 600px;
+    height: 500px;
+}
+
+/* Services */
+#service-hero{
+    padding: 150px 150px 150px 150px;
+    text-align: center;
+    background-color: #771A8F;
+}
+.service-hero h1{
+    font-size: 80px;
+    color: white;
+    font-weight: bold;
+}
+#service-card{
+    padding: 100px 0px;
+}
+
+/* Contant */
+
+#contact-hero{
+    padding: 150px;
+    text-align: center;
+    background-color: #771A8F;
+}
+.contact-hero h1{
+    font-size: 80px;
+    color: white;
+    font-weight: bold;
+}
+.form{
+    padding: 50px;
+}
+.name{
+    padding:20px 0px;
+}
+.email{
+    padding: 20px 0px;
+}
+.location{
+    padding: 20px 0px;
+}
+.formdescription{
+    padding: 20px 0px;
+}
+.name input{
+    width: 50%;
+}
+.email input{
+    width: 50%;
+}
+.location input{
+    width: 50%;
+}
+.formdescription input{
+    width: 50%;
+}
+.gpsimg img{
+    width: 600px;
+    height: 400px;
+    text-align: center;
+}
+.gpsimg{
+    justify-content: center;
+    padding: 40px;
+    
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}
